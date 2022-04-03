@@ -42,9 +42,9 @@ class _TabsScreenState extends State<TabsScreen> {
         currentIndex: _selectPageIndex,
         items: [
           BottomNavigationBarItem(
-              icon: Icon(Icons.category), title: Text('Category')),
+              icon: Icon(Icons.category), label: 'Category'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.star), title: Text('Favorrites')),
+              icon: Icon(Icons.star), label: 'Favorrites'),
         ],
       ),
       drawer: MainDrawer(),
